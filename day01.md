@@ -18,3 +18,10 @@ public class MvcWebConfig extends WebMvcConfigurationSupport {
     }
 }
 ```
+```
+const fs = require('fs');
+fs.readFile('/Users/mengjiayu/Desktop/1.js','utf-8',function(err,dataStr){
+    console.log(err);
+    console.log(dataStr);
+})
+```
