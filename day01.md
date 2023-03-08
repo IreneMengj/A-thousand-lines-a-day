@@ -25,3 +25,14 @@ fs.readFile('/Users/mengjiayu/Desktop/1.js','utf-8',function(err,dataStr){
     console.log(dataStr);
 })
 ```
+```
+const fs = require('fs');
+fs.readFile('/Users/mengjiayu/Desktop/1.js','utf-8',function(err,dataStr){
+    if(err){
+        return console.log('read file unsuccessfully'+err.message);
+    }
+    //console.log(err);
+    console.log('read file successfully');
+    console.log(dataStr);
+})
+```
